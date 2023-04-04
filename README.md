@@ -17,7 +17,7 @@
 
         ID пользователя, 
         ID его подписчика
-- comments(id INT, user_id INT, text TEXT, created TIMESTAMPTZ)
+- comments (id INT, user_id INT, text TEXT, created TIMESTAMPTZ)
 
         ID комментария,
         ID пользователя, который его оставил,
@@ -34,7 +34,7 @@
 
         Добавляет пользователей и подписчиков, так чтобы ID подписчика было больше ID пользователя
         
-- comments(id INT, user_id INT, text TEXT, created TIMESTAMPTZ)
+- comments (id INT, user_id INT, text TEXT, created TIMESTAMPTZ)
  
         Добавляет по 20 комментариев для пользователей, начиная с ID=4
 
