@@ -1,7 +1,7 @@
 # Инициализация проекта
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
+    python -m venv venv
+    venv\Scripts\activate
+    pip install -r requirements.txt
 
 # Настройка проекта
 В файле config.py прописать параметры базы данных PostgresSQL
